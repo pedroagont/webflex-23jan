@@ -1,0 +1,25 @@
+{
+  "name": "m03w6",
+  "version": "1.0.0",
+  "description": "Web servers 101 with Express",
+  "main": "express-server.js",
+  "scripts": {
+    "start": "node express-server.js",
+    "dev": "nodemon express-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "express"
+  ],
+  "author": "Pedro Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
